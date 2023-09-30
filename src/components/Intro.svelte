@@ -17,10 +17,10 @@
 	</div>
 
 	<h2
-		class="flex-none order-first sm:order-none print:order-none text-3xl sm:text-xl md:text-2xl lg:text-5xl text-center p-4 print:pt-0"
+		class="flex-none order-first sm:order-none print:order-none text-3xl sm:text-xl md:text-2xl lg:text-[44px] text-center p-4 print:pt-0"
 	>
 		{name}
-		<span class="block -mt-1 text-base lg:text-lg">({nickname})</span>
+		<span class="block mt-1 text-base lg:text-lg">({nickname})</span>
 	</h2>
 
 	<div class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base">
