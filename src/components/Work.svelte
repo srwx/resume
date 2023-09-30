@@ -17,7 +17,7 @@
 			</div>
 			<div class="flex-1 text-right">{years.join('-')}</div>
 		</div>
-		<ul class="text-left list-disc pl-8 print:pl-6">
+		<ul class="text-left list-disc pl-8 print:pl-6 space-y-1">
 			{#each details as detail}
 				<Hideable>
 					<li>

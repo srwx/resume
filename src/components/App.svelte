@@ -40,7 +40,9 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">
+				Technologies and Languages
+			</h2>
 			<hr />
 			<table class="table table-fixed items-start text-left">
 				{#each technologies as tech}
@@ -61,7 +63,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
+			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Education</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
@@ -78,7 +80,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Work Experience</h2>
 			<hr />
 
 			{#each workExperiences as exp}
@@ -89,10 +91,10 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Projects</h2>
 			<hr />
 
-			<ul class="text-left list-disc pl-8">
+			<ul class="text-left list-disc pl-8 space-y-1">
 				{#each projects as project}
 					<Hideable hide={project.hide}>
 						<li>
@@ -110,7 +112,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
+			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Interests</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
