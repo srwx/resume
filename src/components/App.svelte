@@ -42,11 +42,11 @@
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
 			<hr />
-			<ul class="text-left list-disc pl-8">
+			<ul class="space-y-2 md:space-y-1 text-left list-disc pl-8">
 				{#each technologies as tech}
 					<Hideable>
 						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
+							<span class="w-28 h-full inline-block">{tech.section}</span>
 							<span>{@html tech.details}</span>
 						</li>
 					</Hideable>
