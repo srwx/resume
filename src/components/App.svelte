@@ -46,7 +46,7 @@
 				{#each technologies as tech}
 					<tr>
 						<Hideable>
-							<td class="w-40 pl-8 align-top print:w-36">
+							<td class="w-40 pl-8 align-top print:pl-0">
 								<ul class="list-disc">
 									<li>{tech.section}</li>
 								</ul>
