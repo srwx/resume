@@ -1,44 +1,43 @@
-export const fullVersionLink = 'https://resume.narze.live';
-export const sourceLink = 'https://github.com/narze/resume';
+export const fullVersionLink = ''; // TODO
+export const sourceLink = 'https://github.com/srwx/resume';
 export const ogImageUrl =
 	'https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg';
 
 export const introData = {
-	name: 'Manassarn Manoonchai',
-	nickname: 'Noom',
+	name: 'Sorawong Leardmongkonrut',
+	nickname: 'Wong',
 	phone: '',
-	email: 'manassarn@gmail.com',
-	github: 'narze',
-	linkedin: 'manassarn',
+	email: 'srwong.wong@gmail.com',
+	github: 'srwx',
+	linkedin: 'sorawong-leardmongkonrut-4bb854228',
 	location: 'Bangkok, Thailand',
-	website: 'narze.live'
+	website: '' // TODO
 };
 
 export const technologies = [
 	{
 		section: 'Languages:',
-		details: 'Ruby, JavaScript, Node.js (strong). TypeScript, SQL (proficient).'
+		details: '<b>JavaScript</b>, <b>TypeScript</b>, Node.js, Solidity'
 	},
 	{
 		section: 'Frameworks:',
-		details: 'Ruby on Rails, ReactJS, NextJS, NestJS, SvelteJS, TailwindCSS, Bootstrap'
+		details: '<b>ReactJS</b>, <b>NextJS</b>, <b>TailwindCSS</b>, Express.js, Strapi'
 	},
 	{
-		section: 'Tools:',
+		section: 'Libraries:',
 		details:
-			'Git, Terraform, Docker, Kubernetes, Helm, ArgoCD, FluxCD, Robot Framework, Selenium, Zsh, GitHub Codespaces'
+			'Chart.js, Radix UI, React Data Grid, React Query, GraphQL Codegen, clsx, Storybook, Zustand, Zod, TS-REST'
 	},
 	{
-		section: 'Other:',
-		details:
-			'AWS, GCP, Firebase, Vercel, DigitalOcean, Cloud66, Github Actions, CircleCI, CloudFlare'
+		section: 'Others:',
+		details: 'Figma, LottieFiles, Postman, Docker, MongoDB, Vercel, SEO Optimization'
 	}
 ];
 
 export const educations = [
 	{
 		head: 'B.Eng. Computer Engineering',
-		details: 'Chulalongkorn University, TH. 2007-2010 (GPA 3.45)'
+		details: `King Mongkut's University of Technology Thonburi, TH. 2020-2023 (GPAX 3.46, Second Class Honours)`
 	}
 ];
 
