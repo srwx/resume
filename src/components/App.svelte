@@ -48,12 +48,12 @@
 				{#each technologies as tech}
 					<tr>
 						<Hideable>
-							<td class="w-40 pl-8 align-top print:pl-0">
+							<td class="w-40 pl-8 align-top print:pl-0 print:w-32">
 								<ul class="list-disc">
 									<li>{tech.section}</li>
 								</ul>
 							</td>
-							<td><span>{@html tech.details}</span></td>
+							<td>{@html tech.details}</td>
 						</Hideable>
 					</tr>
 				{/each}
@@ -61,7 +61,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<section class="py-1">
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Education</h2>
 			<hr />
@@ -78,7 +78,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<section class="py-1">
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Work Experience</h2>
 			<hr />
@@ -89,7 +89,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<section class="py-1">
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Projects</h2>
 			<hr />
@@ -110,7 +110,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<section class="py-1">
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Interests</h2>
 			<hr />
