@@ -9,7 +9,7 @@
 	export let website: string = '';
 </script>
 
-<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base print:text-sm">
+<div class="flex flex-wrap flex-col sm:flex-row print:flex-row text-sm sm:text-base print:text-xs">
 	<div class="flex-1 text-left sm:py-4 w-48">
 		<p><a href={`tel:${phone}`}>{phone}</a></p>
 		<p><a href={`mailto:${email}`}>{email}</a></p>
@@ -24,7 +24,7 @@
 	</h2>
 
 	<div
-		class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base print:text-sm"
+		class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base print:text-xs"
 	>
 		<p>
 			<a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
