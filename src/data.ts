@@ -6,7 +6,7 @@ export const ogImageUrl =
 export const introData = {
 	name: 'Sorawong Leardmongkonrut',
 	nickname: 'Wong',
-	phone: '',
+	phone: '0954975790',
 	email: 'srwong.wong@gmail.com',
 	github: 'srwx',
 	linkedin: 'sorawong-leardmongkonrut-4bb854228',
@@ -26,11 +26,11 @@ export const technologies = [
 	{
 		section: 'Libraries:',
 		details:
-			'Chart.js, Radix UI, React Data Grid, React Query, GraphQL Codegen, clsx, Storybook, Zustand, Zod, TS-REST'
+			'Radix UI, React Data Grid, Chart.js, React Query, GraphQL Codegen, clsx, Storybook, Zustand, TS-REST'
 	},
 	{
 		section: 'Others:',
-		details: 'Figma, LottieFiles, Postman, Docker, MongoDB, Vercel, SEO Optimization'
+		details: 'Git, Figma, LottieFiles, Postman, MongoDB, Vercel, SEO Optimization'
 	}
 ];
 
@@ -43,166 +43,79 @@ export const educations = [
 
 export const workExperiences = [
 	{
-		position: 'Full-stack Developer, Co-founder',
-		company: 'EventPop',
-		url: 'https://eventpop.me',
-		years: ['2015', 'Current'],
+		position: 'Software Engineer (Contract 5 months)',
+		company: 'Cleverse',
+		url: 'https://cleverse.com',
+		years: ['Jun 2023', 'Current'],
 		details: [
-			'Designed, developed and maintained several core services for EventPop website (Ticketing, Seating, Payment, Fee Calculation, Line Item, Billing, Reporting, APIs, etc.) using Ruby on Rails, sold 2M+ tickets within 6 years',
-			'Researched & applied improvements for development workflow. Testing libraries : RSpec, Guard, VCR, Capybara, Selenium, Cucumber, Timecop. CI/CD : CircleCI, Github Actions, Drone CI, ArgoCD, FluxCD, Terraform',
-			'Maintained server operations, deployments, containerization with Docker & Kubernetes, CI/CD. Also pioneered DevOps practices in the team keeping daily release & deployment possible.',
-			'Integrated 3rd-party services : Kerry Express, DHL, Queue-It, Refund Protect, Skootar, Tanita Body Scale',
-			'Integrated payment service providers : Omise, ThaiEPay, 123 by 2C2P, SCB-Easy, K-PayPlus, K-PaymentGateway. Processed more than 1 billion THB',
-			'Helped interview more than 50 software engineers, gave insights & feedbacks on technical aspects of candidates, designed tech-related questions & on-site coding challenges'
+			'Developed fully responsive components to inform users about new features and used them as an entry point to the new features such as banner, modal, tooltip, etc. with user tracking.',
+			'Developed a User Interface for a Crypto wallet profit tracking web app using Next.js, TailwindCSS, and React Query. Also integrated this web app into the Telegram application, users are able to open and use the web app via the Telegram bot.',
+			'Developed a dynamic image generator written in HTML and CSS using Vercel OG Image Generation.',
+			'Developed a User Interface and state management of Crypto wallet analysis and Tracker web app using ReactJS, TailwindCSS, Radix UI, React Data Grid, React Query, RainbowKit, Zustand, and TS-REST.'
 		]
 	},
 	{
-		position: 'Senior Infrastructure Software Engineer',
-		company: 'OPN TH',
-		url: 'https://opn.ooo/',
-		years: ['2021', 'Current'],
+		position: 'Software Engineer (Part-time)',
+		company: 'Cleverse',
+		url: 'https://cleverse.com',
+		years: ['Sep 2022', 'May 2023'],
 		details: [
-			'Containerized, developed, and maintained Opn.Store infrastructure on EKS across multiple environments using Terraform, Docker, Kubernetes, and Helm',
-			'Designed architecture using Microservices Pattern & Domain-Driven Design on Sales Promotion feature for Opn.Store',
-			'Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt',
-			'Researched & introduced modern web technologies to the team, such as SvelteJS, TailwindCSS, Vite, etc.',
-			'Designed, bootstrapped, and developed 4 E-commerce related services for Opn.Store'
+			'Setup a Storybook with TailwindCSS for the team to use as a shared component library.',
+			'Developed a company website as a web blog using Next.js with SSG, Image Optimization, TailwindCSS, Strapi, and GraphQL Codegen. Also optimized SEO and Lighthouse score of the web app.',
+			'Developed a User Interface and state management for the DeFi product such as Swap page, Stake page, Liquidity pool page, etc. Using Next.js, TailwindCSS, SCSS, Ant Design, Chart.js, TradingView Lightweight Chart and React Query.',
+			'Discuss and propose ideas to the design team to improve the User Experience such as an Animated loading state, transition color, etc.'
 		]
 	},
 	{
-		position: 'Maker, Co-founder',
-		company: 'Maker Zoo',
-		url: 'https://fb.me/makerzoo',
-		years: ['2014', '2016'],
+		position: 'Software Engineer (Intern)',
+		company: 'Cleverse',
+		url: 'https://cleverse.com',
+		years: ['Jun 2022', 'Aug 2022'],
 		details: [
-			'Pioneered Maker Movement in Thailand by opening first of the Makerspaces in Bangkok & Thailand',
-			'Hosted maker workshops eg. 3D-modeling, 3D-printing, Arduino, IoT, etc. Having more than 100 participants combined.',
-			'Developed hardware-related products for 3-5 clients and startups',
-			'Developed smart door lock system for Hubba, first co-working space in Bangkok',
-			'Provided 3D-printing service & consultant to more than 50 clients',
-			'Hosted 10+ chapters of tutorial videos on Intel Galileo development board, for Intel Thailand'
-		]
-	},
-	{
-		position: 'Web / IoT Developer (Contract)',
-		company: 'Box24',
-		url: 'https://washbox24.com',
-		years: ['2015', '2016'],
-		details: [
-			'Developed internet connected Smart Lockers System using web technologies (Node.js, React.js) on embedded systems (Ubuntu Linux, Arduino, Raspberry Pi)',
-			'Developed private Node.js library to connect with Nayax via serial port to receive cashless payment on vending machines, and also supported Thai Baht cash payment'
-		]
-	},
-	{
-		position: 'Web Developer',
-		company: 'Figabyte',
-		url: 'https://www.facebook.com/figabyte',
-		years: ['2011', '2014'],
-		details: [
-			'Developed more than 20 Facebook web apps with CodeIgniter, using Facebook API',
-			'Developed web platform using Ruby on Rails 3 & 4',
-			'Made iOS apps for several clients using PhoneGap and RubyMotion'
-		]
-	},
-	{
-		position: 'Part-time Web Developer',
-		company: 'Wongnai Media (wongnai.com)',
-		url: 'https://wongnai.com',
-		years: ['2010'],
-		details: [
-			'Developed a small part of website using Java with Spring MVC Framework built with Apache Maven',
-			'Learned TDD practice & making early-stage startup'
+			'Learned a fundamental of Functional Component on ReactJS with TypeScript.',
+			'Develop a reuseable components with Storybook to be used in the project.',
+			'Develop a landing page for the DeFi product using ReactJS with TypeScript and TailwindCSS.'
 		]
 	}
 ];
 
 export const projects = [
 	{
-		name: 'ChatOS',
-		details: 'Hackable chatbot web application',
-		url: 'chat.narze.live',
+		name: 'Traffue Fondy',
+		details:
+			'Visualized Bangkok traffic problems grouped by problem type on a map. Using Next.js with Google Map API to display the map and get the driving direction from the origin point to the destination point with autocomplete place name. This project participated in "HACK BKK 2023" organized by BMA. Also, our team is part of the teams that were chosen to continue working with the Governor of Bangkok under Chadchart Sittipunt team.',
+		url: 'traffue-fondy.vercel.app',
 		hide: false
 	},
 	{
-		name: 'Digital Garden',
-		details: 'My notes & stuff (Second Brain)',
-		url: 'garden.narze.live',
+		name: 'Celestine',
+		details:
+			'A Decentralized Finance Dashboard and Data Provider. Display data of crypto assets from multiple sources. Also provide a GraphQL Public API for developers to use in their projects. Front-end build by Next.js with TypeScript, GraphQL and TailwindCSS.',
+		url: 'celestine-page.vercel.app',
 		hide: false
 	},
 	{
-		name: 'Manoonchai',
+		name: 'Choppala',
 		details:
-			'Modern, productive, and data-driven Thai keyboard layout. A collection of projects built with TypeScript, Elixir, Svelte',
-		url: 'manoonchai.com',
+			'An E-commerce web application inspired by Shopee. Buyer able to browse products, add to cart, add to wishlist, checkout, view purchase history and ratings. Seller able to add and manage products. Crafted and utilizing the power of Next.js with MongoDB, also NextAuth for OAuth with Google, Facebook and GitHub.',
+		url: 'choppala.vercel.app',
 		hide: false
 	},
 	{
-		name: 'Dotfiles',
+		name: 'Woobank Landing Page',
 		details:
-			'macOS dotfiles with setup script for self use, tested on Apple Silicon Macs (Zsh, Zinit, Dotbot, GNU Make, etc.)',
-		url: 'github.com/narze/dotfiles',
+			'A fully responsive landing page of bank website with modern UX/UI design. Powered by ReactJS and TailwindCSS.',
+		url: 'woobank.vercel.app',
 		hide: false
 	},
 	{
-		name: 'Resumette',
-		details:
-			'Interactive & printable résumé with tailored skills fitted in single letter page (This page!)',
-		url: 'resume.narze.live',
+		name: 'Ra dom toon',
+		details: `Funding web app for projects based on ethereum blockchain. Creator able to create project with target funding and deadline. In case that project reach target funding before deadline, all donations wil be transferred to creator's crypto wallet. Otherwise, fund will be refund to supporter wallet.`,
+		url: 'github.com/srwx/ra-dom-toon',
 		hide: false
-	},
-	{
-		name: 'Thwordle',
-		details: 'Thai language Wordle clone.',
-		url: 'thwordle.narze.live',
-		hide: false
-	},
-	{
-		name: '9armbot (Contributor)',
-		details:
-			'Twitch & Discord bot for 9arm (Thai technology Youtuber). I helped re-structuring the project using TypeScript & Prisma',
-		url: 'github.com/thananon/twitch_tools',
-		hide: true
-	},
-	{
-		name: '#100DaysOfCode',
-		details:
-			'My take on practicing modern frontend development by building small projects in 100 days',
-		url: '100daysofcode-narze.vercel.app',
-		hide: true
-	},
-	{
-		name: 'Baht.rb',
-		details: 'Ruby gem to convert number to Thai Baht format',
-		url: 'rubygems.org/gems/baht',
-		hide: true
-	},
-	{
-		name: 'Baht.js',
-		details: 'Convert number to Thai Baht format, but 10x faster & fully typed.',
-		url: 'npmjs.com/package/baht',
-		hide: true
-	},
-	{
-		name: 'Popyut',
-		details:
-			'Contributed to a clone of popcat.click meme clicking game, gone viral and got 2M visitors within one week',
-		url: 'github.com/popyut/popyut',
-		hide: true
-	},
-	{
-		name: 'Resound',
-		details:
-			'Remote soundboard for meetings or streaming. Uses WebRTC instead of server to host rooms.',
-		url: 'github.com/narze/resound',
-		hide: true
 	}
 ];
 
 export const interests = [
-	'Areas : Coding, Productivity & Life-hacks, Mechanical Keyboards',
-	'Typing : 120+ words per minute (Colemak Mod-DH layout)',
-	'Games : Music games, FPS, MOBA, Puzzle',
-	'Music : EDM, Rock, Japanese',
-	'Remote working is a OK. I extensively use self time tracking app for all my works.',
-	'Pets : I have 3 dogs'
+	'Areas : Software Engineer, Product Engineer, Web Development, Mobile App Development'
 ];
