@@ -46,7 +46,7 @@ export const workExperiences = [
 		position: 'Software Engineer (Contract 5 months)',
 		company: 'Cleverse',
 		url: 'https://cleverse.com',
-		years: ['Jun 2023', 'Current'],
+		years: ['Jun 2023', 'Oct 2023'],
 		details: [
 			'Developed fully responsive components to inform users about new features and used them as an entry point to the new features such as banner, modal, tooltip, etc. with user tracking.',
 			'Developed a User Interface for a Crypto wallet profit tracking web app using Next.js, TailwindCSS, and React Query. Also integrated this web app into the Telegram application, users are able to open and use the web app via the Telegram bot.',
