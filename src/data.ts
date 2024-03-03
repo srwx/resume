@@ -43,6 +43,17 @@ export const educations = [
 
 export const workExperiences = [
 	{
+		position: 'Software Engineer (Part-time)',
+		company: 'Softnetics',
+		url: 'https://www.softnetics.tech',
+		years: ['Nov 2023', 'Dec 2023'],
+		details: [
+			'Developed a form input application with validation using react-hook-form with Zod.',
+			'Integrated to Back-end with TS-REST for server-side, also using react-query on client-side for query and mutation.',
+			'Developed an API for form input application using NestJS with Prisma which follows the Controller-Service-Repository pattern.'
+		]
+	},
+	{
 		position: 'Software Engineer (Contract 5 months)',
 		company: 'Cleverse',
 		url: 'https://cleverse.com',
