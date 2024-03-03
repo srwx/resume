@@ -43,6 +43,17 @@ export const educations = [
 
 export const workExperiences = [
 	{
+		position: 'Software Engineer',
+		company: 'Skooldio',
+		url: 'https://www.skooldio.com',
+		years: ['Jan 2024', 'Current'],
+		details: [
+			'Developed a User Interface of Skooldio classroom web application that allow enrolled user to learn a courses.',
+			'Developed a User Interface of Back-office web application which allow admin to manage courses, workshops, etc.',
+			'Integrated a Front-end application with Back-end using GraphQL and Apollo Client.'
+		]
+	},
+	{
 		position: 'Software Engineer (Part-time)',
 		company: 'Softnetics',
 		url: 'https://www.softnetics.tech',
