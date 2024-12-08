@@ -149,6 +149,6 @@ export const projects = [
 ];
 
 export const interests = [
-	'Areas : Software Engineer, Product Engineer, Web Development, Mobile App Development',
-	'Technologies stacks : Docker, Kubernetes, GCP, CI/CD, Microservices, Serverless'
+	'<b>Areas</b> : Software Engineer, Product Engineer, Web Development, Mobile App Development',
+	'<b>Technologies stacks</b> : Docker, Kubernetes, GCP, CI/CD, Microservices, Serverless'
 ];

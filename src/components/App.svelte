@@ -118,7 +118,7 @@
 				{#each interests as interest}
 					<Hideable>
 						<li>
-							{interest}
+							{@html interest}
 						</li>
 					</Hideable>
 				{/each}
