@@ -88,7 +88,7 @@
 		</Hideable>
 	</section>
 
-	<section class="py-1">
+	<section class="py-1 no-break">
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl print:!font-bold uppercase text-left">Projects</h2>
 			<hr />
@@ -186,6 +186,12 @@
 		main {
 			margin: 0 0;
 			padding: 0;
+		}
+
+		/* Prevent page breaks inside the div */
+		.no-break {
+			page-break-inside: avoid; /* Ensure div isn't split */
+			break-inside: avoid; /* Modern browsers support */
 		}
 	}
 </style>
