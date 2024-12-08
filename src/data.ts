@@ -26,11 +26,11 @@ export const technologies = [
 	{
 		section: 'Libraries:',
 		details:
-			'Radix UI, React Data Grid, Chart.js, React Query, GraphQL Codegen, clsx, Storybook, Zustand, TS-REST'
+			'RadixUI, Shadcn, Chart.js, Tanstack, TS-REST, GraphQL Codegen, Apollo Client, Storybook, Zustand'
 	},
 	{
 		section: 'Others:',
-		details: 'Git, Figma, LottieFiles, Postman, MongoDB, Vercel, SEO Optimization'
+		details: 'Git, Figma, LottieFiles, Postman, MongoDB, Firestore, Vercel, SEO Optimization'
 	}
 ];
 
@@ -43,14 +43,17 @@ export const educations = [
 
 export const workExperiences = [
 	{
-		position: 'Software Engineer',
+		position: 'Software Engineer (Full-time)',
 		company: 'Skooldio',
 		url: 'https://www.skooldio.com',
 		years: ['Jan 2024', 'Current'],
 		details: [
-			'Developed a User Interface of Skooldio classroom web application that allow enrolled user to learn a courses.',
-			'Developed a User Interface of Back-office web application which allow admin to manage courses, workshops, etc.',
-			'Integrated a Front-end application with Back-end using GraphQL and Apollo Client.'
+			'Developed a Back-end service to create a job which executes a task at any given time using node-schedule.',
+			'Developed a back-office web app for HR to upload CSV files and visualize employee data differences using Shadcn and TanStack Table.',
+			`Extended a Performance Review web app by enabling feedback re-submission and integrating Gemini AI to summarize feedback for managers on subordinates, enhancing the review process.`,
+			`Developed an AI-powered symptom diagnosis system integrated with LINE API, using Gemini AI for message analysis and prompting to provide accurate health insights based on user inputs.`,
+			`Built a web app to verify users' state welfare eligibility via ID card number and phone number, integrating Infobip for OTP verification, within a 1-month hackathon timeframe to validate the team's concept.`,
+			'Developed a User Interface of Back-office web application which allow admin to manage courses, workshops, etc.'
 		]
 	},
 	{
@@ -103,6 +106,13 @@ export const workExperiences = [
 
 export const projects = [
 	{
+		name: 'NoteGenius AI',
+		details:
+			'AI-Powered Note Summarization to summarizes handwritten class notes stored in PDFs and extracts essential data, transformed into simplified summaries tailored specifically for Thai students. This project participated in the "APAC region at the GenAI Hackathon 2024" by Google I/O. Also, our team are one of the 10 teams from Thailand that qualified for the final round.',
+		url: 'sk-hackathon-wangdee-ai.web.app',
+		hide: false
+	},
+	{
 		name: 'Traffue Fondy',
 		details:
 			'Visualized Bangkok traffic problems grouped by problem type on a map. Using Next.js with Google Map API to display the map and get the driving direction from the origin point to the destination point with autocomplete place name. This project participated in "HACK BKK 2023" organized by BMA. Also, our team is part of the teams that were chosen to continue working with the Governor of Bangkok under Chadchart Sittipunt team.',
@@ -139,5 +149,6 @@ export const projects = [
 ];
 
 export const interests = [
-	'Areas : Software Engineer, Product Engineer, Web Development, Mobile App Development'
+	'Areas : Software Engineer, Product Engineer, Web Development, Mobile App Development',
+	'Technologies stacks : Docker, Kubernetes, GCP, CI/CD, Microservices, Serverless'
 ];
